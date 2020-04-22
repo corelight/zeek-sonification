@@ -1,6 +1,10 @@
-# Zeek To Audio
+# Zeek Sonification
 
-Simple script that can take a Zeek conn.log file and turn it into an audio file that you can listen to. This allows you to hear areas in the conn log where there are periodic (frequent) events and otherwise might hear things you normally didn't know.
+Sonification is a process in which data is converted to sound. This can be useful to exploit our brain's excellent ability to
+detect subtle changes in sound which can be mapped to subtle changes in data.
+
+This simple script takes a Zeek conn.log file and turns it into an audio file that you can listen to. This allows you to 
+hear areas in the conn log where there are periodic (frequent) events and otherwise might hear things you normally didn't know.
 
 ## Usage
 1. Ensure that you have the program `sox` installed (http://sox.sourceforge.net/)
